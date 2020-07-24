@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jayanth.customer_support">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Ticket Raising"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loginpage" />
+        <activity android:name=".unassignedTickets1" />
+        <activity android:name=".inprogressTickets1" />
+        <activity android:name=".closedTickets1" />
+        <activity android:name=".feedback" />
+        <activity android:name=".closedTickets" />
+        <activity android:name=".inprogressTickets" />
+        <activity android:name=".unassignedTickets" />
+        <activity android:name=".createTickets" />
+        <activity android:name=".createActivities" />
+        <activity android:name=".userProfile" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
